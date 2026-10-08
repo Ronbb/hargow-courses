@@ -1,0 +1,89 @@
+{
+  "assets": [
+    {
+      "assetId": "speech-6e65176bd6f336064a67e833165ee87e0d73bc1799b85bfab4fc35f7fe45f6da",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 1179,
+      "file": "audio/a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    },
+    {
+      "assetId": "speech-82babd5343cef8db749b9ad4ed802ab4817216c61929b88ff3641e7e32844bd6",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 9756,
+      "file": "audio/f9c28ddf96e38318d697ef0addd9bbfece314fc6fcc3b61c997f985bef2cddf2.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "f9c28ddf96e38318d697ef0addd9bbfece314fc6fcc3b61c997f985bef2cddf2",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    },
+    {
+      "assetId": "speech-8867144c86cd17b4217d081737c382290b050e4efb82addf570f349a06264998",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 674,
+      "file": "audio/017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    },
+    {
+      "assetId": "speech-90825b1b3f1ef10dd257c7c54ad9fc7808a55ac46157e1fdc76690cef74f0884",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 1011,
+      "file": "audio/576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    },
+    {
+      "assetId": "speech-b82fcfff985b9ab64129dd59e901e3f7a8caaeaff823319cb209e05b84f123e3",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 927,
+      "file": "audio/4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    },
+    {
+      "assetId": "speech-fdc0fac191e359b4b666e122371a86c2dbc5e9bbf2c004fcecc4252bfc4ec0dd",
+      "creator": "Ronbb",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 758,
+      "file": "audio/eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428.wav",
+      "license": "Owner-authorized AI-generated course audio",
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "rightsConfirmed": true,
+      "sha256": "eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428",
+      "source": "Qwen Audio 3.1 Flash TTS; author-created Cantonese course dialogue",
+      "status": "ready"
+    }
+  ],
+  "schemaVersion": "1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "assets": [
+    {
+      "assetId": "avatar-a-yan-v1",
+      "revision": 1,
+      "sha256": "70e05cbf33ebfdb2d4303ff9add86920c8128c99e2c29d351e5eca1cf52d4ba6",
+      "mimeType": "image/svg+xml",
+      "width": 160,
+      "height": 160,
+      "altZh": "阿欣的头像",
+      "creditZh": "Hargow 原创角色插图",
+      "file": "assets/avatar-a-yan-v1.svg",
+      "status": "ready",
+      "source": "Original Hargow SVG character illustration",
+      "license": "MIT",
+      "creator": "Ronbb",
+      "rightsConfirmed": true
+    },
+    {
+      "assetId": "avatar-a-ming-v1",
+      "revision": 1,
+      "sha256": "23d5b35d43ce729cb6063e99c42c7354b793f641d6de13b26e38d289ecbc024f",
+      "mimeType": "image/svg+xml",
+      "width": 160,
+      "height": 160,
+      "altZh": "阿明的头像",
+      "creditZh": "Hargow 原创角色插图",
+      "file": "assets/avatar-a-ming-v1.svg",
+      "status": "ready",
+      "source": "Original Hargow SVG character illustration",
+      "license": "MIT",
+      "creator": "Ronbb",
+      "rightsConfirmed": true
+    }
+  ],
+  "characters": [
+    {
+      "snapshot": {
+        "avatarId": "avatar-a-yan-v1",
+        "characterId": "character-a-yan",
+        "displayName": "阿欣",
+        "revision": 1,
+        "speechLocale": "yue-Hant-HK"
+      },
+      "avatarRevision": 1
+    },
+    {
+      "snapshot": {
+        "avatarId": "avatar-a-ming-v1",
+        "characterId": "character-a-ming",
+        "displayName": "阿明",
+        "revision": 1,
+        "speechLocale": "yue-Hant-HK"
+      },
+      "avatarRevision": 1
+    }
+  ]
+}

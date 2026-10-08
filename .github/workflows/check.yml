@@ -18,7 +18,11 @@ jobs:
         working-directory: framework
         env:
           CHEF_PRODUCT: hargow
-      - run: cargo run --locked -p chef-engine --bin chef-server -- check-release ../courses/releases/hargow-teahouse-pilot.json --sources ../courses/lessons
+      - run: cargo run --locked -p chef-engine --bin chef-server -- check-release ../courses/releases/hargow-teahouse-pilot.json --sources ../courses/releases/hargow-teahouse-pilot
         working-directory: framework
         env:
           CHEF_PRODUCT: hargow
+      - run: cargo run --locked -p chef-engine --bin chef-server -- assets-check ../courses/assets/bundle.json ../courses
+        working-directory: framework
+      - run: cargo run --locked -p chef-engine --bin chef-server -- audio-bundle-check ../courses/audio/bundle.json ../courses
+        working-directory: framework

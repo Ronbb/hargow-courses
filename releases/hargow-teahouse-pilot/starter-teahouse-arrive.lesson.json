@@ -1,0 +1,1252 @@
+{
+  "audio": [
+    {
+      "assetId": "speech-6e65176bd6f336064a67e833165ee87e0d73bc1799b85bfab4fc35f7fe45f6da",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 1179,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4",
+      "url": "/api/audio/a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4.wav"
+    },
+    {
+      "assetId": "speech-82babd5343cef8db749b9ad4ed802ab4817216c61929b88ff3641e7e32844bd6",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 9756,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "f9c28ddf96e38318d697ef0addd9bbfece314fc6fcc3b61c997f985bef2cddf2",
+      "url": "/api/audio/f9c28ddf96e38318d697ef0addd9bbfece314fc6fcc3b61c997f985bef2cddf2.wav"
+    },
+    {
+      "assetId": "speech-8867144c86cd17b4217d081737c382290b050e4efb82addf570f349a06264998",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 674,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c",
+      "url": "/api/audio/017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c.wav"
+    },
+    {
+      "assetId": "speech-90825b1b3f1ef10dd257c7c54ad9fc7808a55ac46157e1fdc76690cef74f0884",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 1011,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b",
+      "url": "/api/audio/576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b.wav"
+    },
+    {
+      "assetId": "speech-b82fcfff985b9ab64129dd59e901e3f7a8caaeaff823319cb209e05b84f123e3",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 927,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9",
+      "url": "/api/audio/4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9.wav"
+    },
+    {
+      "assetId": "speech-fdc0fac191e359b4b666e122371a86c2dbc5e9bbf2c004fcecc4252bfc4ec0dd",
+      "creditZh": "AI 合成粤语语音 · Qwen",
+      "durationMs": 758,
+      "mimeType": "audio/wav",
+      "revision": 1,
+      "sha256": "eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428",
+      "url": "/api/audio/eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428.wav"
+    }
+  ],
+  "audioRefs": [
+    {
+      "assetId": "speech-6e65176bd6f336064a67e833165ee87e0d73bc1799b85bfab4fc35f7fe45f6da",
+      "revision": 1
+    },
+    {
+      "assetId": "speech-82babd5343cef8db749b9ad4ed802ab4817216c61929b88ff3641e7e32844bd6",
+      "revision": 1
+    },
+    {
+      "assetId": "speech-8867144c86cd17b4217d081737c382290b050e4efb82addf570f349a06264998",
+      "revision": 1
+    },
+    {
+      "assetId": "speech-90825b1b3f1ef10dd257c7c54ad9fc7808a55ac46157e1fdc76690cef74f0884",
+      "revision": 1
+    },
+    {
+      "assetId": "speech-b82fcfff985b9ab64129dd59e901e3f7a8caaeaff823319cb209e05b84f123e3",
+      "revision": 1
+    },
+    {
+      "assetId": "speech-fdc0fac191e359b4b666e122371a86c2dbc5e9bbf2c004fcecc4252bfc4ec0dd",
+      "revision": 1
+    }
+  ],
+  "audioTracks": [
+    {
+      "assetId": "speech-82babd5343cef8db749b9ad4ed802ab4817216c61929b88ff3641e7e32844bd6",
+      "blockId": "dialogue-arrive",
+      "cues": [
+        {
+          "endMs": 843,
+          "entryId": "turn-1",
+          "segmentId": null,
+          "startMs": 0,
+          "wordRange": null
+        },
+        {
+          "endMs": 320,
+          "entryId": "turn-1",
+          "segmentId": "seg-1-1",
+          "startMs": 80,
+          "wordRange": null
+        },
+        {
+          "endMs": 320,
+          "entryId": "turn-1",
+          "segmentId": "seg-1-1",
+          "startMs": 80,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 2828,
+          "entryId": "turn-2",
+          "segmentId": null,
+          "startMs": 1143,
+          "wordRange": null
+        },
+        {
+          "endMs": 1783,
+          "entryId": "turn-2",
+          "segmentId": "seg-2-1",
+          "startMs": 1223,
+          "wordRange": null
+        },
+        {
+          "endMs": 1783,
+          "entryId": "turn-2",
+          "segmentId": "seg-2-1",
+          "startMs": 1223,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 2743,
+          "entryId": "turn-2",
+          "segmentId": "seg-2-3",
+          "startMs": 2423,
+          "wordRange": null
+        },
+        {
+          "endMs": 2743,
+          "entryId": "turn-2",
+          "segmentId": "seg-2-3",
+          "startMs": 2423,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 4897,
+          "entryId": "turn-3",
+          "segmentId": null,
+          "startMs": 3128,
+          "wordRange": null
+        },
+        {
+          "endMs": 3688,
+          "entryId": "turn-3",
+          "segmentId": "seg-3-1",
+          "startMs": 3128,
+          "wordRange": null
+        },
+        {
+          "endMs": 3688,
+          "entryId": "turn-3",
+          "segmentId": "seg-3-1",
+          "startMs": 3128,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 4648,
+          "entryId": "turn-3",
+          "segmentId": "seg-3-3",
+          "startMs": 4008,
+          "wordRange": null
+        },
+        {
+          "endMs": 4648,
+          "entryId": "turn-3",
+          "segmentId": "seg-3-3",
+          "startMs": 4008,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 6208,
+          "entryId": "turn-4",
+          "segmentId": null,
+          "startMs": 5197,
+          "wordRange": null
+        },
+        {
+          "endMs": 5437,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-1",
+          "startMs": 5277,
+          "wordRange": null
+        },
+        {
+          "endMs": 5437,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-1",
+          "startMs": 5277,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 5597,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-2",
+          "startMs": 5437,
+          "wordRange": null
+        },
+        {
+          "endMs": 5597,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-2",
+          "startMs": 5437,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 5997,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-3",
+          "startMs": 5597,
+          "wordRange": null
+        },
+        {
+          "endMs": 5997,
+          "entryId": "turn-4",
+          "segmentId": "seg-4-3",
+          "startMs": 5597,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 8108,
+          "entryId": "turn-5",
+          "segmentId": null,
+          "startMs": 6508,
+          "wordRange": null
+        },
+        {
+          "endMs": 6988,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-1",
+          "startMs": 6668,
+          "wordRange": null
+        },
+        {
+          "endMs": 6988,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-1",
+          "startMs": 6668,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 7468,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-3",
+          "startMs": 7308,
+          "wordRange": null
+        },
+        {
+          "endMs": 7468,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-3",
+          "startMs": 7308,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 7948,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-4",
+          "startMs": 7468,
+          "wordRange": null
+        },
+        {
+          "endMs": 7948,
+          "entryId": "turn-5",
+          "segmentId": "seg-5-4",
+          "startMs": 7468,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 9756,
+          "entryId": "turn-6",
+          "segmentId": null,
+          "startMs": 8408,
+          "wordRange": null
+        },
+        {
+          "endMs": 8808,
+          "entryId": "turn-6",
+          "segmentId": "seg-6-1",
+          "startMs": 8488,
+          "wordRange": null
+        },
+        {
+          "endMs": 8808,
+          "entryId": "turn-6",
+          "segmentId": "seg-6-1",
+          "startMs": 8488,
+          "wordRange": {
+            "end": 1,
+            "start": 0
+          }
+        },
+        {
+          "endMs": 9608,
+          "entryId": "turn-6",
+          "segmentId": "seg-6-3",
+          "startMs": 9288,
+          "wordRange": null
+        },
+        {
+          "endMs": 9608,
+          "entryId": "turn-6",
+          "segmentId": "seg-6-3",
+          "startMs": 9288,
+          "wordRange": {
+            "end": 2,
+            "start": 0
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "dialogue-arrive",
+      "speakers": [
+        {
+          "avatarId": "avatar-a-yan-v1",
+          "characterId": "character-a-yan",
+          "displayName": "阿欣",
+          "id": "guest",
+          "labelZh": "顾客"
+        },
+        {
+          "avatarId": "avatar-a-ming-v1",
+          "characterId": "character-a-ming",
+          "displayName": "阿明",
+          "id": "host",
+          "labelZh": "店员"
+        }
+      ],
+      "titleZh": "茶楼门口",
+      "turns": [
+        {
+          "id": "turn-1",
+          "segments": [
+            {
+              "id": "seg-1-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "zou2 san4"
+                  }
+                ],
+                "text": "早晨",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "expr-morning"
+            },
+            {
+              "id": "seg-1-2",
+              "reading": {
+                "pronunciations": [],
+                "text": "！",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "guest",
+          "translationZh": "早上好！"
+        },
+        {
+          "id": "turn-2",
+          "segments": [
+            {
+              "id": "seg-2-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "zou2 san4"
+                  }
+                ],
+                "text": "早晨",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "expr-morning"
+            },
+            {
+              "id": "seg-2-2",
+              "reading": {
+                "pronunciations": [],
+                "text": "！",
+                "words": []
+              }
+            },
+            {
+              "id": "seg-2-3",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "loeng5 wai2"
+                  }
+                ],
+                "text": "兩位",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "expr-two-guests"
+            },
+            {
+              "id": "seg-2-4",
+              "reading": {
+                "pronunciations": [],
+                "text": "？",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "host",
+          "translationZh": "早上好！两位吗？"
+        },
+        {
+          "id": "turn-3",
+          "segments": [
+            {
+              "id": "seg-3-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "hai6"
+                  }
+                ],
+                "text": "係",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-3-2",
+              "reading": {
+                "pronunciations": [],
+                "text": "，",
+                "words": []
+              }
+            },
+            {
+              "id": "seg-3-3",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "loeng5 wai2"
+                  }
+                ],
+                "text": "兩位",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "expr-two-guests"
+            },
+            {
+              "id": "seg-3-4",
+              "reading": {
+                "pronunciations": [],
+                "text": "。",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "guest",
+          "translationZh": "是的，两位。"
+        },
+        {
+          "id": "turn-4",
+          "segments": [
+            {
+              "id": "seg-4-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "jam2"
+                  }
+                ],
+                "text": "飲",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-2",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "me1"
+                  }
+                ],
+                "text": "咩",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-3",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "caa4"
+                  }
+                ],
+                "text": "茶",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-4",
+              "reading": {
+                "pronunciations": [],
+                "text": "？",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "host",
+          "translationZh": "喝什么茶？"
+        },
+        {
+          "id": "turn-5",
+          "segments": [
+            {
+              "id": "seg-5-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "m4 goi1"
+                  }
+                ],
+                "text": "唔該",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "expr-please"
+            },
+            {
+              "id": "seg-5-2",
+              "reading": {
+                "pronunciations": [],
+                "text": "，",
+                "words": []
+              }
+            },
+            {
+              "id": "seg-5-3",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "jiu3"
+                  }
+                ],
+                "text": "要",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-5-4",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "hung4 caa4"
+                  }
+                ],
+                "text": "紅茶",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              },
+              "vocabularyId": "word-black-tea"
+            },
+            {
+              "id": "seg-5-5",
+              "reading": {
+                "pronunciations": [],
+                "text": "。",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "guest",
+          "translationZh": "麻烦您，要红茶。"
+        },
+        {
+          "id": "turn-6",
+          "segments": [
+            {
+              "id": "seg-6-1",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 1,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "hou2"
+                  }
+                ],
+                "text": "好",
+                "words": [
+                  {
+                    "end": 1,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-6-2",
+              "reading": {
+                "pronunciations": [],
+                "text": "，",
+                "words": []
+              }
+            },
+            {
+              "id": "seg-6-3",
+              "reading": {
+                "pronunciations": [
+                  {
+                    "range": {
+                      "end": 2,
+                      "start": 0
+                    },
+                    "system": "jyutping",
+                    "text": "cing2 co5"
+                  }
+                ],
+                "text": "請坐",
+                "words": [
+                  {
+                    "end": 2,
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-6-4",
+              "reading": {
+                "pronunciations": [],
+                "text": "。",
+                "words": []
+              }
+            }
+          ],
+          "speakerId": "host",
+          "translationZh": "好的，请坐。"
+        }
+      ],
+      "type": "dialogue"
+    },
+    {
+      "bodyZh": "店员说「兩位？」时是在确认人数，不是在问姓名。回答「係，兩位」即可。「係」表示“是”。",
+      "id": "explain-guests",
+      "targets": [
+        {
+          "blockId": "dialogue-arrive",
+          "entryId": "turn-2",
+          "segmentId": "seg-2-3"
+        }
+      ],
+      "titleZh": "店员问的是人数",
+      "type": "explanation"
+    },
+    {
+      "entryIds": [
+        "expr-morning",
+        "expr-two-guests",
+        "expr-please",
+        "word-black-tea"
+      ],
+      "id": "vocabulary",
+      "type": "vocabulary"
+    },
+    {
+      "entryIds": [
+        "grammar-request"
+      ],
+      "id": "grammar",
+      "type": "grammar"
+    },
+    {
+      "exerciseType": "single-choice",
+      "id": "choice",
+      "options": [
+        {
+          "id": "morning",
+          "text": "早晨！"
+        },
+        {
+          "id": "two",
+          "text": "兩位。"
+        },
+        {
+          "id": "tea",
+          "text": "紅茶。"
+        }
+      ],
+      "promptZh": "早上走进茶楼，哪句适合先问候店员？",
+      "type": "exercise"
+    },
+    {
+      "exerciseType": "fill-blank",
+      "hintZh": "本课中的两字礼貌表达，粤拼 m4 goi1。",
+      "id": "fill",
+      "promptZh": "麻烦店员点茶，在句首填入礼貌表达。",
+      "templateTarget": "____，要紅茶。",
+      "type": "exercise"
+    },
+    {
+      "exerciseType": "order",
+      "id": "order",
+      "promptZh": "把词块排成一句礼貌的点茶请求。",
+      "tokens": [
+        {
+          "id": "tea",
+          "text": "紅茶。"
+        },
+        {
+          "id": "please",
+          "text": "唔該，"
+        },
+        {
+          "id": "want",
+          "text": "要"
+        }
+      ],
+      "type": "exercise"
+    },
+    {
+      "alternativeZh": "在家面对一杯茶练习，也可以只读出本课例句。",
+      "id": "habit",
+      "taskZh": "下次选早餐饮品时，用「唔該，要……」说出自己的选择。",
+      "type": "habit"
+    },
+    {
+      "id": "summary",
+      "takeawaysZh": [
+        "早晨：早上好。",
+        "兩位：说明两个人。",
+        "唔該，要紅茶：礼貌地说出饮品选择。"
+      ],
+      "type": "summary"
+    }
+  ],
+  "cast": [
+    {
+      "avatarId": "avatar-a-yan-v1",
+      "characterId": "character-a-yan",
+      "displayName": "阿欣",
+      "revision": 1,
+      "speechLocale": "yue-Hant-HK"
+    },
+    {
+      "avatarId": "avatar-a-ming-v1",
+      "characterId": "character-a-ming",
+      "displayName": "阿明",
+      "revision": 1,
+      "speechLocale": "yue-Hant-HK"
+    }
+  ],
+  "completion": {
+    "requiredExerciseIds": [
+      "choice",
+      "fill",
+      "order"
+    ],
+    "requiredStepIds": [
+      "read",
+      "practice",
+      "recap"
+    ],
+    "strategy": "attempt-all"
+  },
+  "editorial": {
+    "note": "所有者授权直接发布；未声明人工试听或独立专家审校。Owner authorized direct course/audio publication; actual fixed-model alignment, no human listening claim",
+    "status": "reviewed"
+  },
+  "estimatedMinutes": 8,
+  "explanationLanguage": "zh-CN",
+  "id": "starter-teahouse-arrive",
+  "knowledge": {
+    "grammar": [
+      {
+        "bodyZh": "「唔該」先引起对方注意，再用「要」加上饮品。粤语口语可以省略已经明确的主语。先把这句当作完整表达使用。",
+        "examples": [
+          {
+            "recording": {
+              "asset": {
+                "assetId": "speech-6e65176bd6f336064a67e833165ee87e0d73bc1799b85bfab4fc35f7fe45f6da",
+                "creditZh": "AI 合成粤语语音 · Qwen",
+                "durationMs": 1179,
+                "mimeType": "audio/wav",
+                "revision": 1,
+                "sha256": "a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4",
+                "url": "/api/audio/a6cf8bde847f5c4c2f7ad97f05efbb6d8329dbaf7ed5897e7569e1fe923318b4.wav"
+              },
+              "endMs": 1179,
+              "startMs": 0
+            },
+            "target": {
+              "pronunciations": [
+                {
+                  "range": {
+                    "end": 1,
+                    "start": 0
+                  },
+                  "system": "jyutping",
+                  "text": "jiu3"
+                },
+                {
+                  "range": {
+                    "end": 3,
+                    "start": 1
+                  },
+                  "system": "jyutping",
+                  "text": "hung4 caa4"
+                }
+              ],
+              "text": "要紅茶。",
+              "words": [
+                {
+                  "end": 1,
+                  "start": 0
+                },
+                {
+                  "end": 3,
+                  "start": 1
+                }
+              ]
+            },
+            "zh": "要红茶。"
+          }
+        ],
+        "id": "grammar-request",
+        "titleZh": "唔該，要……：礼貌地说出选择"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "expr-morning",
+        "lemma": {
+          "pronunciations": [
+            {
+              "range": {
+                "end": 2,
+                "start": 0
+              },
+              "system": "jyutping",
+              "text": "zou2 san4"
+            }
+          ],
+          "text": "早晨",
+          "words": [
+            {
+              "end": 2,
+              "start": 0
+            }
+          ]
+        },
+        "meaningZh": "早上好",
+        "noteZh": "早上见面时的问候。下午和晚上可以用「你好」。",
+        "partOfSpeech": "phrase",
+        "recording": {
+          "asset": {
+            "assetId": "speech-fdc0fac191e359b4b666e122371a86c2dbc5e9bbf2c004fcecc4252bfc4ec0dd",
+            "creditZh": "AI 合成粤语语音 · Qwen",
+            "durationMs": 758,
+            "mimeType": "audio/wav",
+            "revision": 1,
+            "sha256": "eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428",
+            "url": "/api/audio/eb0d495922b06ee92fe877725129b4802b42518eeeeb9ec727692b91211ca428.wav"
+          },
+          "endMs": 758,
+          "startMs": 0
+        }
+      },
+      {
+        "id": "expr-two-guests",
+        "lemma": {
+          "pronunciations": [
+            {
+              "range": {
+                "end": 2,
+                "start": 0
+              },
+              "system": "jyutping",
+              "text": "loeng5 wai2"
+            }
+          ],
+          "text": "兩位",
+          "words": [
+            {
+              "end": 2,
+              "start": 0
+            }
+          ]
+        },
+        "meaningZh": "两位（客人）",
+        "noteZh": "店员询问人数时常用「幾位？」；两个人可以回答「兩位」。这里的「位」读 wai2。",
+        "partOfSpeech": "phrase",
+        "recording": {
+          "asset": {
+            "assetId": "speech-90825b1b3f1ef10dd257c7c54ad9fc7808a55ac46157e1fdc76690cef74f0884",
+            "creditZh": "AI 合成粤语语音 · Qwen",
+            "durationMs": 1011,
+            "mimeType": "audio/wav",
+            "revision": 1,
+            "sha256": "576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b",
+            "url": "/api/audio/576f30a03dc39197b8cd07a4eff2b42688e78fcc05b27902d2f6a6e4f7ac8e8b.wav"
+          },
+          "endMs": 1011,
+          "startMs": 0
+        }
+      },
+      {
+        "id": "expr-please",
+        "lemma": {
+          "pronunciations": [
+            {
+              "range": {
+                "end": 2,
+                "start": 0
+              },
+              "system": "jyutping",
+              "text": "m4 goi1"
+            }
+          ],
+          "text": "唔該",
+          "words": [
+            {
+              "end": 2,
+              "start": 0
+            }
+          ]
+        },
+        "meaningZh": "麻烦您；谢谢（帮助或服务）",
+        "noteZh": "请求服务前可以说「唔該」。感谢别人帮忙也可使用；收到礼物时常用「多謝」。",
+        "partOfSpeech": "phrase",
+        "recording": {
+          "asset": {
+            "assetId": "speech-8867144c86cd17b4217d081737c382290b050e4efb82addf570f349a06264998",
+            "creditZh": "AI 合成粤语语音 · Qwen",
+            "durationMs": 674,
+            "mimeType": "audio/wav",
+            "revision": 1,
+            "sha256": "017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c",
+            "url": "/api/audio/017bb2565857382e18f318ebae3728d240c701fe85dab121b6b49901345f522c.wav"
+          },
+          "endMs": 674,
+          "startMs": 0
+        }
+      },
+      {
+        "id": "word-black-tea",
+        "lemma": {
+          "pronunciations": [
+            {
+              "range": {
+                "end": 2,
+                "start": 0
+              },
+              "system": "jyutping",
+              "text": "hung4 caa4"
+            }
+          ],
+          "text": "紅茶",
+          "words": [
+            {
+              "end": 2,
+              "start": 0
+            }
+          ]
+        },
+        "meaningZh": "红茶",
+        "noteZh": "点饮品时，先说「要」，再加上想要的饮品。",
+        "partOfSpeech": "phrase",
+        "recording": {
+          "asset": {
+            "assetId": "speech-b82fcfff985b9ab64129dd59e901e3f7a8caaeaff823319cb209e05b84f123e3",
+            "creditZh": "AI 合成粤语语音 · Qwen",
+            "durationMs": 927,
+            "mimeType": "audio/wav",
+            "revision": 1,
+            "sha256": "4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9",
+            "url": "/api/audio/4cc7ca9068a50ef5c00b38591f4ff9122b573c141f45465ade2ef4c088b1d0d9.wav"
+          },
+          "endMs": 927,
+          "startMs": 0
+        }
+      }
+    ]
+  },
+  "levelId": "starter",
+  "media": [
+    {
+      "assetId": "avatar-a-yan-v1",
+      "revision": 1,
+      "sha256": "70e05cbf33ebfdb2d4303ff9add86920c8128c99e2c29d351e5eca1cf52d4ba6",
+      "mimeType": "image/svg+xml",
+      "width": 160,
+      "height": 160,
+      "altZh": "阿欣的头像",
+      "creditZh": "Hargow 原创角色插图",
+      "url": "/api/media/70e05cbf33ebfdb2d4303ff9add86920c8128c99e2c29d351e5eca1cf52d4ba6.svg"
+    },
+    {
+      "assetId": "avatar-a-ming-v1",
+      "revision": 1,
+      "sha256": "23d5b35d43ce729cb6063e99c42c7354b793f641d6de13b26e38d289ecbc024f",
+      "mimeType": "image/svg+xml",
+      "width": 160,
+      "height": 160,
+      "altZh": "阿明的头像",
+      "creditZh": "Hargow 原创角色插图",
+      "url": "/api/media/23d5b35d43ce729cb6063e99c42c7354b793f641d6de13b26e38d289ecbc024f.svg"
+    }
+  ],
+  "objectivesZh": [
+    "用「早晨」向人问早。",
+    "用「兩位」说明同行人数。",
+    "用「唔該，要……」提出点茶请求。"
+  ],
+  "reviewItemIds": [
+    "expr-morning",
+    "expr-two-guests",
+    "expr-please"
+  ],
+  "revision": 3,
+  "schemaVersion": "2.0",
+  "serverOnly": {
+    "grading": {
+      "choice": {
+        "correctOptionId": "morning",
+        "feedbackZh": "早上可以用「早晨」问候。",
+        "kind": "choice"
+      },
+      "fill": {
+        "accepted": [
+          "唔該",
+          "唔该"
+        ],
+        "caseSensitive": false,
+        "feedbackZh": "唔該，用于请求服务或感谢帮助。",
+        "kind": "text"
+      },
+      "order": {
+        "correctTokenIds": [
+          "please",
+          "want",
+          "tea"
+        ],
+        "feedbackZh": "先说唔該，再说要什么。",
+        "kind": "order"
+      }
+    }
+  },
+  "steps": [
+    {
+      "blockIds": [
+        "dialogue-arrive"
+      ],
+      "id": "read",
+      "kind": "read",
+      "titleZh": "茶楼门口"
+    },
+    {
+      "blockIds": [
+        "explain-guests",
+        "vocabulary",
+        "grammar"
+      ],
+      "id": "explore",
+      "kind": "explore",
+      "titleZh": "说法与用法"
+    },
+    {
+      "blockIds": [
+        "choice",
+        "fill",
+        "order"
+      ],
+      "id": "practice",
+      "kind": "practice",
+      "titleZh": "试着开口"
+    },
+    {
+      "blockIds": [
+        "habit"
+      ],
+      "id": "habit-step",
+      "kind": "apply",
+      "titleZh": "今日一啖"
+    },
+    {
+      "blockIds": [
+        "summary"
+      ],
+      "id": "recap",
+      "kind": "recap",
+      "titleZh": "带走三句话"
+    }
+  ],
+  "summaryZh": "周末早上，阿欣和朋友来到茶楼。向店员问早、说明人数，再选一壶茶。",
+  "targetLanguage": "yue-Hant-HK",
+  "title": {
+    "target": "早晨，兩位。",
+    "zh": "走进茶楼，先打个招呼"
+  },
+  "unitId": "morning-teahouse"
+}
