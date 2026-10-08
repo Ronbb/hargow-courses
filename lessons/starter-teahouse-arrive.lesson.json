@@ -1,0 +1,813 @@
+{
+  "schemaVersion": "2.0",
+  "targetLanguage": "yue-Hant-HK",
+  "explanationLanguage": "zh-CN",
+  "id": "starter-teahouse-arrive",
+  "revision": 1,
+  "levelId": "starter",
+  "unitId": "morning-teahouse",
+  "title": {
+    "target": "早晨，兩位。",
+    "zh": "走进茶楼，先打个招呼"
+  },
+  "summaryZh": "周末早上，阿欣和朋友来到茶楼。向店员问早、说明人数，再选一壶茶。",
+  "estimatedMinutes": 8,
+  "objectivesZh": [
+    "用「早晨」向人问早。",
+    "用「兩位」说明同行人数。",
+    "用「唔該，要……」提出点茶请求。"
+  ],
+  "knowledge": {
+    "vocabulary": [
+      {
+        "id": "expr-morning",
+        "lemma": {
+          "text": "早晨",
+          "words": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "pronunciations": [
+            {
+              "range": {
+                "start": 0,
+                "end": 2
+              },
+              "system": "jyutping",
+              "text": "zou2 san4"
+            }
+          ]
+        },
+        "partOfSpeech": "phrase",
+        "meaningZh": "早上好",
+        "noteZh": "早上见面时的问候。下午和晚上可以用「你好」。"
+      },
+      {
+        "id": "expr-two-guests",
+        "lemma": {
+          "text": "兩位",
+          "words": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "pronunciations": [
+            {
+              "range": {
+                "start": 0,
+                "end": 2
+              },
+              "system": "jyutping",
+              "text": "loeng5 wai2"
+            }
+          ]
+        },
+        "partOfSpeech": "phrase",
+        "meaningZh": "两位（客人）",
+        "noteZh": "店员询问人数时常用「幾位？」；两个人可以回答「兩位」。这里的「位」读 wai2。"
+      },
+      {
+        "id": "expr-please",
+        "lemma": {
+          "text": "唔該",
+          "words": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "pronunciations": [
+            {
+              "range": {
+                "start": 0,
+                "end": 2
+              },
+              "system": "jyutping",
+              "text": "m4 goi1"
+            }
+          ]
+        },
+        "partOfSpeech": "phrase",
+        "meaningZh": "麻烦您；谢谢（帮助或服务）",
+        "noteZh": "请求服务前可以说「唔該」。感谢别人帮忙也可使用；收到礼物时常用「多謝」。"
+      },
+      {
+        "id": "word-black-tea",
+        "lemma": {
+          "text": "紅茶",
+          "words": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "pronunciations": [
+            {
+              "range": {
+                "start": 0,
+                "end": 2
+              },
+              "system": "jyutping",
+              "text": "hung4 caa4"
+            }
+          ]
+        },
+        "partOfSpeech": "phrase",
+        "meaningZh": "红茶",
+        "noteZh": "点饮品时，先说「要」，再加上想要的饮品。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar-request",
+        "titleZh": "唔該，要……：礼貌地说出选择",
+        "bodyZh": "「唔該」先引起对方注意，再用「要」加上饮品。粤语口语可以省略已经明确的主语。先把这句当作完整表达使用。",
+        "examples": [
+          {
+            "target": {
+              "text": "要紅茶。",
+              "words": [
+                {
+                  "start": 0,
+                  "end": 1
+                },
+                {
+                  "start": 1,
+                  "end": 3
+                }
+              ],
+              "pronunciations": [
+                {
+                  "range": {
+                    "start": 0,
+                    "end": 1
+                  },
+                  "system": "jyutping",
+                  "text": "jiu3"
+                },
+                {
+                  "range": {
+                    "start": 1,
+                    "end": 3
+                  },
+                  "system": "jyutping",
+                  "text": "hung4 caa4"
+                }
+              ]
+            },
+            "zh": "要红茶。"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "dialogue-arrive",
+      "type": "dialogue",
+      "titleZh": "茶楼门口",
+      "speakers": [
+        {
+          "id": "guest",
+          "labelZh": "顾客",
+          "characterId": "character-a-yan",
+          "displayName": "阿欣",
+          "avatarId": "avatar-a-yan-v1"
+        },
+        {
+          "id": "host",
+          "labelZh": "店员",
+          "characterId": "character-a-ming",
+          "displayName": "阿明",
+          "avatarId": "avatar-a-ming-v1"
+        }
+      ],
+      "turns": [
+        {
+          "id": "turn-1",
+          "speakerId": "guest",
+          "segments": [
+            {
+              "id": "seg-1-1",
+              "reading": {
+                "text": "早晨",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "zou2 san4"
+                  }
+                ]
+              },
+              "vocabularyId": "expr-morning"
+            },
+            {
+              "id": "seg-1-2",
+              "reading": {
+                "text": "！",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "早上好！"
+        },
+        {
+          "id": "turn-2",
+          "speakerId": "host",
+          "segments": [
+            {
+              "id": "seg-2-1",
+              "reading": {
+                "text": "早晨",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "zou2 san4"
+                  }
+                ]
+              },
+              "vocabularyId": "expr-morning"
+            },
+            {
+              "id": "seg-2-2",
+              "reading": {
+                "text": "！",
+                "words": [],
+                "pronunciations": []
+              }
+            },
+            {
+              "id": "seg-2-3",
+              "reading": {
+                "text": "兩位",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "loeng5 wai2"
+                  }
+                ]
+              },
+              "vocabularyId": "expr-two-guests"
+            },
+            {
+              "id": "seg-2-4",
+              "reading": {
+                "text": "？",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "早上好！两位吗？"
+        },
+        {
+          "id": "turn-3",
+          "speakerId": "guest",
+          "segments": [
+            {
+              "id": "seg-3-1",
+              "reading": {
+                "text": "係",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "hai6"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-3-2",
+              "reading": {
+                "text": "，",
+                "words": [],
+                "pronunciations": []
+              }
+            },
+            {
+              "id": "seg-3-3",
+              "reading": {
+                "text": "兩位",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "loeng5 wai2"
+                  }
+                ]
+              },
+              "vocabularyId": "expr-two-guests"
+            },
+            {
+              "id": "seg-3-4",
+              "reading": {
+                "text": "。",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "是的，两位。"
+        },
+        {
+          "id": "turn-4",
+          "speakerId": "host",
+          "segments": [
+            {
+              "id": "seg-4-1",
+              "reading": {
+                "text": "飲",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "jam2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-2",
+              "reading": {
+                "text": "咩",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "me1"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-3",
+              "reading": {
+                "text": "茶",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "caa4"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-4-4",
+              "reading": {
+                "text": "？",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "喝什么茶？"
+        },
+        {
+          "id": "turn-5",
+          "speakerId": "guest",
+          "segments": [
+            {
+              "id": "seg-5-1",
+              "reading": {
+                "text": "唔該",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "m4 goi1"
+                  }
+                ]
+              },
+              "vocabularyId": "expr-please"
+            },
+            {
+              "id": "seg-5-2",
+              "reading": {
+                "text": "，",
+                "words": [],
+                "pronunciations": []
+              }
+            },
+            {
+              "id": "seg-5-3",
+              "reading": {
+                "text": "要",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "jiu3"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-5-4",
+              "reading": {
+                "text": "紅茶",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "hung4 caa4"
+                  }
+                ]
+              },
+              "vocabularyId": "word-black-tea"
+            },
+            {
+              "id": "seg-5-5",
+              "reading": {
+                "text": "。",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "麻烦您，要红茶。"
+        },
+        {
+          "id": "turn-6",
+          "speakerId": "host",
+          "segments": [
+            {
+              "id": "seg-6-1",
+              "reading": {
+                "text": "好",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 1
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 1
+                    },
+                    "system": "jyutping",
+                    "text": "hou2"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-6-2",
+              "reading": {
+                "text": "，",
+                "words": [],
+                "pronunciations": []
+              }
+            },
+            {
+              "id": "seg-6-3",
+              "reading": {
+                "text": "請坐",
+                "words": [
+                  {
+                    "start": 0,
+                    "end": 2
+                  }
+                ],
+                "pronunciations": [
+                  {
+                    "range": {
+                      "start": 0,
+                      "end": 2
+                    },
+                    "system": "jyutping",
+                    "text": "cing2 co5"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "seg-6-4",
+              "reading": {
+                "text": "。",
+                "words": [],
+                "pronunciations": []
+              }
+            }
+          ],
+          "translationZh": "好的，请坐。"
+        }
+      ]
+    },
+    {
+      "id": "explain-guests",
+      "type": "explanation",
+      "titleZh": "店员问的是人数",
+      "bodyZh": "店员说「兩位？」时是在确认人数，不是在问姓名。回答「係，兩位」即可。「係」表示“是”。",
+      "targets": [
+        {
+          "blockId": "dialogue-arrive",
+          "entryId": "turn-2",
+          "segmentId": "seg-2-3"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "type": "vocabulary",
+      "entryIds": [
+        "expr-morning",
+        "expr-two-guests",
+        "expr-please",
+        "word-black-tea"
+      ]
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "entryIds": [
+        "grammar-request"
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "exercise",
+      "exerciseType": "single-choice",
+      "promptZh": "早上走进茶楼，哪句适合先问候店员？",
+      "options": [
+        {
+          "id": "morning",
+          "text": "早晨！"
+        },
+        {
+          "id": "two",
+          "text": "兩位。"
+        },
+        {
+          "id": "tea",
+          "text": "紅茶。"
+        }
+      ]
+    },
+    {
+      "id": "fill",
+      "type": "exercise",
+      "exerciseType": "fill-blank",
+      "promptZh": "麻烦店员点茶，在句首填入礼貌表达。",
+      "templateTarget": "____，要紅茶。",
+      "hintZh": "本课中的两字礼貌表达，粤拼 m4 goi1。"
+    },
+    {
+      "id": "order",
+      "type": "exercise",
+      "exerciseType": "order",
+      "promptZh": "把词块排成一句礼貌的点茶请求。",
+      "tokens": [
+        {
+          "id": "tea",
+          "text": "紅茶。"
+        },
+        {
+          "id": "please",
+          "text": "唔該，"
+        },
+        {
+          "id": "want",
+          "text": "要"
+        }
+      ]
+    },
+    {
+      "id": "habit",
+      "type": "habit",
+      "taskZh": "下次选早餐饮品时，用「唔該，要……」说出自己的选择。",
+      "alternativeZh": "在家面对一杯茶练习，也可以只读出本课例句。"
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "takeawaysZh": [
+        "早晨：早上好。",
+        "兩位：说明两个人。",
+        "唔該，要紅茶：礼貌地说出饮品选择。"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "read",
+      "kind": "read",
+      "titleZh": "茶楼门口",
+      "blockIds": [
+        "dialogue-arrive"
+      ]
+    },
+    {
+      "id": "explore",
+      "kind": "explore",
+      "titleZh": "说法与用法",
+      "blockIds": [
+        "explain-guests",
+        "vocabulary",
+        "grammar"
+      ]
+    },
+    {
+      "id": "practice",
+      "kind": "practice",
+      "titleZh": "试着开口",
+      "blockIds": [
+        "choice",
+        "fill",
+        "order"
+      ]
+    },
+    {
+      "id": "habit-step",
+      "kind": "apply",
+      "titleZh": "今日一啖",
+      "blockIds": [
+        "habit"
+      ]
+    },
+    {
+      "id": "recap",
+      "kind": "recap",
+      "titleZh": "带走三句话",
+      "blockIds": [
+        "summary"
+      ]
+    }
+  ],
+  "completion": {
+    "strategy": "attempt-all",
+    "requiredStepIds": [
+      "read",
+      "practice",
+      "recap"
+    ],
+    "requiredExerciseIds": [
+      "choice",
+      "fill",
+      "order"
+    ]
+  },
+  "reviewItemIds": [
+    "expr-morning",
+    "expr-two-guests",
+    "expr-please"
+  ],
+  "cast": [
+    {
+      "characterId": "character-a-yan",
+      "revision": 1,
+      "displayName": "阿欣",
+      "avatarId": "avatar-a-yan-v1",
+      "speechLocale": "yue-Hant-HK"
+    },
+    {
+      "characterId": "character-a-ming",
+      "revision": 1,
+      "displayName": "阿明",
+      "avatarId": "avatar-a-ming-v1",
+      "speechLocale": "yue-Hant-HK"
+    }
+  ],
+  "media": [],
+  "audio": [],
+  "audioTracks": [],
+  "editorial": {
+    "status": "draft",
+    "note": "原创粤语试点。字音参照香港语言学学会粤拼字表，口语搭配人工审听前保持草稿；音频/素材待生成登记。"
+  },
+  "serverOnly": {
+    "grading": {
+      "choice": {
+        "kind": "choice",
+        "correctOptionId": "morning",
+        "feedbackZh": "早上可以用「早晨」问候。"
+      },
+      "fill": {
+        "kind": "text",
+        "accepted": [
+          "唔該",
+          "唔该"
+        ],
+        "caseSensitive": false,
+        "feedbackZh": "唔該，用于请求服务或感谢帮助。"
+      },
+      "order": {
+        "kind": "order",
+        "correctTokenIds": [
+          "please",
+          "want",
+          "tea"
+        ],
+        "feedbackZh": "先说唔該，再说要什么。"
+      }
+    }
+  }
+}

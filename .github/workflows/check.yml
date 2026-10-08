@@ -1,0 +1,24 @@
+name: Cantonese course sources
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: courses
+      - uses: actions/checkout@v5
+        with:
+          repository: Ronbb/chef
+          ref: c0921b8cd3f515b1fd60d6ecc58ce0ced18abe82
+          path: framework
+      - run: cargo run --locked -p chef-engine --bin chef-server -- check ../courses/lessons/starter-teahouse-arrive.lesson.json
+        working-directory: framework
+        env:
+          CHEF_PRODUCT: hargow
+      - run: cargo run --locked -p chef-engine --bin chef-server -- check-release ../courses/releases/hargow-teahouse-pilot.json --sources ../courses/lessons
+        working-directory: framework
+        env:
+          CHEF_PRODUCT: hargow

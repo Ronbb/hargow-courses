@@ -1,6 +1,15 @@
 {
   "productId": "hargow",
   "targetLanguage": "yue-Hant-HK",
-  "status": "bootstrap",
-  "units": []
+  "status": "draft",
+  "release": "releases/hargow-teahouse-pilot.json",
+  "units": [
+    {
+      "id": "morning-teahouse",
+      "titleZh": "早晨去饮茶",
+      "lessons": [
+        "starter-teahouse-arrive"
+      ]
+    }
+  ]
 }

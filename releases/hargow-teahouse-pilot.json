@@ -1,0 +1,22 @@
+{
+  "id": "hargow-teahouse-pilot",
+  "schemaVersion": "1.0",
+  "levels": [
+    {
+      "id": "starter",
+      "label": "入门 · 每日一啖",
+      "units": [
+        {
+          "id": "morning-teahouse",
+          "titleZh": "早晨去饮茶",
+          "lessons": [
+            {
+              "lessonId": "starter-teahouse-arrive",
+              "revision": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
