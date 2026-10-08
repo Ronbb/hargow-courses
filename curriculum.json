@@ -1,7 +1,7 @@
 {
   "productId": "hargow",
   "targetLanguage": "yue-Hant-HK",
-  "status": "draft",
+  "status": "published",
   "release": "releases/hargow-teahouse-pilot.json",
   "units": [
     {
